@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: Roboto;
+}
+
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.silver-headerlogo {
+  width: 120px;
+  height: 151px;
+}
+
+.silver-house-head {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.silver-house-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  gap: 30px;
+}
+
+.silver-nav-link {
+  text-decoration: none;
+  color: #8c8a8a;
+}
+
+.silver-house-img {
+  display: flex;
+  justify-content: center;
+}
+
+.silver-house-im {
+  width: 1110px;
+  height: 450px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.silver-house-left {
+  width: 730px;
+  height: 500px;
+
+  background: #f0f0f0;
+}
+
+.silver-house-right {
+  width: 350px;
+  height: 500px;
+  background: #f0f0f0;
+}
+
+.silver-house-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+
+
+.right-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+
+  color: #4581b7;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.right-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #808080;
+  margin-top: 25px;
+  padding: 0px 95px 51px 40px;
+}
+
+.left-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #808080;
+  margin-top: 25px;
+  padding: 0px 35px 15px 40px;
+}
+
+.right-div {
+  padding: 20px 40px;
+}
+
+.right-number {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+  color: #808080;
+}
+
+.right-email {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #808080;
+  text-decoration: none;
+}
+
+.right-div-email {
+  padding: 20px 40px;
+}
+
+
+.silver-footer {
+  width: 1110px;
+  height: 150px;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: start;
+}
+
+.silver-house-foot {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-help {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.footer-img {
+  width: 254px;
+  height: 120px;
+}
+
+.about-number {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  padding: 38px 0px 0px 507px;
+  color: #808080;
+}
+
+.footer-number {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29.3px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #808080;
+}
+
+@media (max-width:550px) {
+ 
+  .silver-headerlogo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .silver-house-head {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .silver-house-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .silver-nav-link {
+    text-decoration: none;
+    color: #8c8a8a;
+    font-size: 5px;
+  }
+  
+  .silver-house-img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .silver-house-im {
+    width: 330px;
+    height: 200px;
+    margin-top: 10px;
+  }
+  
+  .silver-house-left {
+    width: 190px;
+    height: 200px;
+  
+    background: #f0f0f0;
+  }
+  
+  .silver-house-right {
+    width: 130px;
+    height: 200px;
+    background: #f0f0f0;
+  }
+  
+  .silver-house-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .right-title {
+    font-size: 6px;
+    font-weight: 200;
+    line-height: 2.44px;
+  
+    color: #4581b7;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .right-text {
+    font-size: 5px;
+    font-weight: 300;
+    line-height: 8px;
+    text-align: left;
+    color: #808080;
+    margin-top: 25px;
+    padding: 0px 10px 5px 10px;
+  }
+  
+  .left-text {
+    font-size: 5px;
+    font-weight: 400;
+    line-height: 8px;
+    text-align: left;
+    color: #808080;
+    margin-top: 25px;
+    padding: 0px 10px 5px 10px;
+  }
+  
+  .right-div {  
+  padding: 0px 10px;
+  }
+  
+  .right-number {
+    font-size: 6px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #808080;
+
+  }
+  
+  .right-email {
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 7px;
+  }
+  
+  .right-div-email {
+    padding: 0px 10px;
+  }
+  
+  
+  .silver-footer {
+    width: 330px;
+    height: 50px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .silver-house-foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer-help {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .footer-img {
+    width: 70px;
+    height: 30px;
+  }
+  
+  .about-number {
+    font-size: 6px;
+    font-weight: 300;
+    line-height: 18.75px;
+    padding: 0px 0px 0px 130px;
+    color: #808080;
+  }
+  
+  .footer-number {
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 19.3px;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #808080;
+  }
+  
+}
