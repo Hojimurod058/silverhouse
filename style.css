@@ -171,117 +171,115 @@
 }
 
 @media (max-width:550px) {
- 
+
   .silver-headerlogo {
     width: 50px;
-    height: 50px;
+    height: 55px;
   }
-  
+
   .silver-house-head {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   }
-  
+
   .silver-house-text {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    margin-top: 10px;
     gap: 10px;
   }
-  
+
   .silver-nav-link {
-    text-decoration: none;
-    color: #8c8a8a;
-    font-size: 5px;
+    font-size: 7px;
   }
-  
+
   .silver-house-img {
     display: flex;
     justify-content: center;
   }
-  
+
   .silver-house-im {
     width: 330px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 1px;
   }
-  
+
   .silver-house-left {
-    width: 190px;
-    height: 200px;
-  
+    width: 330px;
+    height: 150px;
     background: #f0f0f0;
   }
-  
+
   .silver-house-right {
-    width: 130px;
-    height: 200px;
+    width: 330px;
+    height: 80px;
     background: #f0f0f0;
   }
-  
+
   .silver-house-card {
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-top: 10px;
   }
-  
-  
-  
+
+
+
   .right-title {
-    font-size: 6px;
+    font-size: 10px;
     font-weight: 200;
     line-height: 2.44px;
-  
     color: #4581b7;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
   }
-  
-  .right-text {
-    font-size: 5px;
-    font-weight: 300;
-    line-height: 8px;
-    text-align: left;
-    color: #808080;
-    margin-top: 25px;
-    padding: 0px 10px 5px 10px;
-  }
-  
-  .left-text {
-    font-size: 5px;
-    font-weight: 400;
-    line-height: 8px;
-    text-align: left;
-    color: #808080;
-    margin-top: 25px;
-    padding: 0px 10px 5px 10px;
-  }
-  
-  .right-div {  
-  padding: 0px 10px;
-  }
-  
-  .right-number {
-    font-size: 6px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #808080;
 
+  .right-text {
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 8.6px;
+    text-align: left;
+    color: #808080;
+    margin-top: 15px;
+    padding: 0px 10px 5px 10px;
   }
-  
+
+  .left-text {
+    font-size: 8px;
+    line-height: 8px;
+    margin-top: 15px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .contact {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+  }
+
+  .right-div {
+    padding: 0px 5px;
+    display: flex;
+  }
+
+  .right-number {
+    font-size: 8px;
+    font-weight: 550;
+  }
+
   .right-email {
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 7px;
+    font-size: 8px;
+    font-weight: 550;
   }
-  
+
   .right-div-email {
-    padding: 0px 10px;
+    padding: 0px 5px;
   }
-  
-  
+
+
   .silver-footer {
     width: 330px;
     height: 50px;
@@ -289,42 +287,42 @@
     display: flex;
     justify-content: start;
   }
-  
+
   .silver-house-foot {
     display: flex;
     justify-content: center;
     margin-top: 10px;
   }
-  
+
   .footer-help {
     display: flex;
     justify-content: start;
     align-items: center;
     margin-left: 10px;
   }
-  
+
   .footer-img {
     width: 70px;
     height: 30px;
   }
-  
+
   .about-number {
     font-size: 6px;
-    font-weight: 300;
+    font-weight: 550;
     line-height: 18.75px;
     padding: 0px 0px 0px 130px;
     color: #808080;
   }
-  
+
   .footer-number {
     font-family: Roboto;
     font-size: 8px;
-    font-weight: 500;
-    line-height: 19.3px;
+    font-weight: 550;
+    line-height: 10.3px;
     display: flex;
     justify-content: end;
     text-decoration: none;
     color: #808080;
   }
-  
+
 }
